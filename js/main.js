@@ -15,11 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // While testing: use the Test URL, and click "Listen for test event" in n8n
-  // before every submission (test webhooks only fire once per click).
-  // When ready to go live, swap this for the Production URL from n8n
-  // (same Webhook node, "Production URL" tab).
-  const WEBHOOK_URL = "https://samparke.app.n8n.cloud/webhook-test/dirt-punch-quote";
+  const WEBHOOK_URL = "https://samparke.app.n8n.cloud/webhook/dirt-punch-quote";
 
   document.querySelectorAll("[data-booking-form]").forEach((form) => {
     form.addEventListener("submit", (e) => {
