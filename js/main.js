@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const WEBHOOK_URL = "https://samparke.app.n8n.cloud/webhook/dirt-punch-quote";
+  const WEBHOOK_URL = "https://samparke.app.n8n.cloud/webhook/dirt-punch-web-form";
 
   document.querySelectorAll("[data-booking-form]").forEach((form) => {
     form.addEventListener("submit", (e) => {
